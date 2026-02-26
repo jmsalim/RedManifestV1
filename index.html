@@ -41,7 +41,7 @@ transition: opacity 1.2s ease, visibility 1.2s ease;
 }
 .title-screen.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
 .title-main {
-font-family: ‘UnifrakturMaguntia’, ‘Cinzel’, cursive;
+font-family: 'UnifrakturMaguntia', 'Cinzel', cursive;
 font-size: clamp(3rem, 8vw, 6rem);
 color: #8B0000;
 text-shadow: 0 0 40px rgba(139,0,0,0.5), 0 0 80px rgba(139,0,0,0.2);
@@ -53,19 +53,19 @@ animation: titlePulse 5s ease-in-out infinite;
 50%{text-shadow:0 0 60px rgba(139,0,0,0.7),0 0 120px rgba(139,0,0,0.3)}
 }
 .title-sub {
-font-family: ‘Cinzel’, serif; font-size: clamp(0.7rem, 2vw, 0.9rem);
+font-family: 'Cinzel', serif; font-size: clamp(0.7rem, 2vw, 0.9rem);
 color: #8B6914; letter-spacing: 0.35em; text-transform: uppercase; margin-bottom: 3em;
 }
 .version-select { display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; max-width: 700px; padding: 0 1rem; }
 .version-btn {
 background: transparent; border: 1px solid #8B6914; color: #E8DCC8;
-font-family: ‘Cinzel’, serif; font-size: 0.85rem; padding: 1em 2em;
+font-family: 'Cinzel', serif; font-size: 0.85rem; padding: 1em 2em;
 cursor: pointer; letter-spacing: 0.12em; text-transform: uppercase;
 transition: all 0.4s ease; position: relative; overflow: hidden; min-width: 250px;
 -webkit-appearance: none; appearance: none;
 }
 .version-btn::before {
-content: ‘’; position: absolute; top: 0; left: -100%; width: 100%; height: 100%;
+content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%;
 background: linear-gradient(90deg, transparent, rgba(139,0,0,0.15), transparent);
 transition: left 0.6s ease;
 }
@@ -82,7 +82,7 @@ opacity: 0; transition: opacity 1s ease;
 
 .click-prompt {
 position: fixed; bottom: 1.5rem; left: 50%; transform: translateX(-50%);
-font-family: ‘Cinzel’, serif; font-size: 0.6rem; letter-spacing: 0.3em;
+font-family: 'Cinzel', serif; font-size: 0.6rem; letter-spacing: 0.3em;
 text-transform: uppercase; color: #8B6914; opacity: 0;
 transition: opacity 0.5s ease; z-index: 60; pointer-events: none;
 }
@@ -99,13 +99,13 @@ transition: opacity 0.6s ease, transform 0.6s ease;
 
 .passage .scene-break {
 text-align: center; color: #8B6914; margin: 2em 0;
-font-family: ‘Cinzel’, serif; font-size: 0.8rem; letter-spacing: 0.5em;
+font-family: 'Cinzel', serif; font-size: 0.8rem; letter-spacing: 0.5em;
 opacity: 0; transform: translateY(8px); transition: opacity 0.6s ease, transform 0.6s ease;
 }
 .passage .scene-break.revealed { opacity: 0.5; transform: translateY(0); }
 
 .passage .ending-banner {
-text-align: center; font-family: ‘Cinzel’, serif; font-size: 1.1rem;
+text-align: center; font-family: 'Cinzel', serif; font-size: 1.1rem;
 color: #8B0000; letter-spacing: 0.15em; padding: 1.5em 0;
 border-top: 1px solid rgba(139,0,0,0.3); border-bottom: 1px solid rgba(139,0,0,0.3);
 margin: 2em 0; text-shadow: 0 0 30px rgba(139,0,0,0.4);
@@ -114,7 +114,7 @@ opacity: 0; transform: translateY(8px); transition: opacity 0.6s ease, transform
 .passage .ending-banner.revealed { opacity: 1; transform: translateY(0); }
 
 .passage .headline {
-font-family: ‘Cinzel’, serif; font-size: 0.75rem; letter-spacing: 0.2em;
+font-family: 'Cinzel', serif; font-size: 0.75rem; letter-spacing: 0.2em;
 text-transform: uppercase; color: #D4C5A9;
 border: 1px solid rgba(184,134,11,0.3); padding: 1.2em 1.5em;
 margin: 1.5em 0; background: rgba(26,20,16,0.5);
@@ -122,11 +122,11 @@ opacity: 0; transform: translateY(8px); transition: opacity 0.6s ease, transform
 }
 .passage .headline.revealed { opacity: 1; transform: translateY(0); }
 .passage .headline strong { display: block; font-size: 0.9rem; color: #E8DCC8; margin: 0.3em 0; letter-spacing: 0.08em; }
-.passage .headline em { font-family: ‘Crimson Text’, serif; font-size: 0.85rem; letter-spacing: 0.02em; color: rgba(232,220,200,0.7); }
+.passage .headline em { font-family: 'Crimson Text', serif; font-size: 0.85rem; letter-spacing: 0.02em; color: rgba(232,220,200,0.7); }
 .passage .headline .status { display: block; margin-top: 0.8em; color: #B8860B; font-size: 0.7rem; }
 
 .passage .score-block {
-font-family: ‘Cinzel’, serif; font-size: 0.75rem; letter-spacing: 0.1em;
+font-family: 'Cinzel', serif; font-size: 0.75rem; letter-spacing: 0.1em;
 color: #8B6914; padding: 1em 0; border-top: 1px solid rgba(184,134,11,0.2); margin-top: 1.5em;
 opacity: 0; transform: translateY(8px); transition: opacity 0.6s ease, transform 0.6s ease;
 }
@@ -142,14 +142,14 @@ opacity: 0; transform: translateY(8px); transition: opacity 0.5s ease, transform
 .choice-btn {
 background: transparent; border: 1px solid rgba(184,134,11,0.25);
 border-left: 3px solid #8B0000; color: #E8DCC8;
-font-family: ‘Crimson Text’, serif; font-size: 1rem;
+font-family: 'Crimson Text', serif; font-size: 1rem;
 padding: 0.8em 1.2em; text-align: left; cursor: pointer;
 transition: all 0.35s ease; line-height: 1.5;
 position: relative; overflow: hidden;
 -webkit-appearance: none; appearance: none;
 }
 .choice-btn::before {
-content: ‘’; position: absolute; top: 0; left: 0; width: 0; height: 100%;
+content: ''; position: absolute; top: 0; left: 0; width: 0; height: 100%;
 background: rgba(139,0,0,0.08); transition: width 0.4s ease;
 }
 .choice-btn:hover::before { width: 100%; }
@@ -158,7 +158,7 @@ background: rgba(139,0,0,0.08); transition: width 0.4s ease;
 .restart-btn {
 display: inline-block; margin-top: 2em; background: transparent;
 border: 1px solid #8B6914; color: #B8860B;
-font-family: ‘Cinzel’, serif; font-size: 0.7rem; letter-spacing: 0.2em;
+font-family: 'Cinzel', serif; font-size: 0.7rem; letter-spacing: 0.2em;
 text-transform: uppercase; padding: 0.8em 2em; cursor: pointer;
 transition: all 0.3s ease; -webkit-appearance: none; appearance: none;
 }
@@ -204,7 +204,12 @@ html { font-size: 16px; }
 // === AUDIO ENGINE ===
 let audioCtx=null, soundEnabled=true;
 function initAudio(){if(!audioCtx)audioCtx=new(window.AudioContext||window.webkitAudioContext)();if(audioCtx.state==='suspended')audioCtx.resume();}
-function toggleSound(){soundEnabled=!soundEnabled;document.getElementById('soundToggle').textContent=soundEnabled?'🔊':'🔇';}
+function toggleSound(){
+  soundEnabled=!soundEnabled;
+  document.getElementById('soundToggle').textContent=soundEnabled?'🔊':'🔇';
+  if(!soundEnabled)stopAmbient();
+  else if(currentAmbient)playAmbient(currentAmbient);
+}
 function playSound(type){
   if(!soundEnabled||!audioCtx)return;
   try{const t=audioCtx.currentTime;const S={
@@ -224,11 +229,18 @@ function playSound(type){
     wolves:()=>{[180,220,260].forEach((fr,i)=>{const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type='sine';o.frequency.setValueAtTime(fr,t+i*0.3);o.frequency.linearRampToValueAtTime(fr*1.5,t+i*0.3+0.8);o.frequency.linearRampToValueAtTime(fr*0.8,t+i*0.3+1.5);g.gain.setValueAtTime(0,t+i*0.3);g.gain.linearRampToValueAtTime(0.04,t+i*0.3+0.3);g.gain.exponentialRampToValueAtTime(0.001,t+i*0.3+1.5);o.connect(g);g.connect(audioCtx.destination);o.start(t+i*0.3);o.stop(t+i*0.3+1.6);});},
     carriage:()=>{const b=audioCtx.createBuffer(1,audioCtx.sampleRate*2,audioCtx.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++){d[i]=(Math.random()*0.1-0.05)+(Math.sin(i*0.15)>0.7?(Math.random()-0.5)*0.3:0);}const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();s.buffer=b;f.type='bandpass';f.frequency.value=500;g.gain.setValueAtTime(0.1,t);g.gain.exponentialRampToValueAtTime(0.001,t+2);s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start();s.stop(t+2);},
     church:()=>{[262,330,392].forEach(fr=>{const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type='sine';o.frequency.value=fr;g.gain.setValueAtTime(0.06,t);g.gain.exponentialRampToValueAtTime(0.001,t+2);o.connect(g);g.connect(audioCtx.destination);o.start();o.stop(t+2.2);});},
-    pour:()=>{const b=audioCtx.createBuffer(1,audioCtx.sampleRate*1.2,audioCtx.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*0.5*(0.3+0.7*Math.sin(i/200));const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();s.buffer=b;f.type='bandpass';f.frequency.value=3000;f.Q.value=2;g.gain.setValueAtTime(0.04,t);g.gain.exponentialRampToValueAtTime(0.001,t+1.2);s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start();s.stop(t+1.2);}
+    pour:()=>{const b=audioCtx.createBuffer(1,audioCtx.sampleRate*1.2,audioCtx.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*0.5*(0.3+0.7*Math.sin(i/200));const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();s.buffer=b;f.type='bandpass';f.frequency.value=3000;f.Q.value=2;g.gain.setValueAtTime(0.04,t);g.gain.exponentialRampToValueAtTime(0.001,t+1.2);s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start();s.stop(t+1.2);},
+    // Phase 4: New SFX
+    chains:()=>{for(let i=0;i<5;i++){const b=audioCtx.createBuffer(1,audioCtx.sampleRate*0.1,audioCtx.sampleRate),d=b.getChannelData(0);for(let j=0;j<d.length;j++)d[j]=(Math.random()*2-1)*Math.exp(-j/(audioCtx.sampleRate*0.015));const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();s.buffer=b;f.type='bandpass';f.frequency.value=1800+i*400;f.Q.value=3;g.gain.value=0.07;s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start(t+i*0.08);}},
+    whisper:()=>{const b=audioCtx.createBuffer(1,audioCtx.sampleRate*1.5,audioCtx.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*0.3*(0.5+0.5*Math.sin(i/800));const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();s.buffer=b;f.type='bandpass';f.frequency.value=2500;f.Q.value=1.5;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(0.05,t+0.3);g.gain.linearRampToValueAtTime(0,t+1.5);s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start();s.stop(t+1.5);},
+    creak:()=>{const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type='sawtooth';o.frequency.setValueAtTime(200,t);o.frequency.linearRampToValueAtTime(350,t+0.3);o.frequency.linearRampToValueAtTime(180,t+0.6);g.gain.setValueAtTime(0.03,t);g.gain.linearRampToValueAtTime(0.06,t+0.15);g.gain.exponentialRampToValueAtTime(0.001,t+0.7);const f=audioCtx.createBiquadFilter();f.type='bandpass';f.frequency.value=300;f.Q.value=5;o.connect(f);f.connect(g);g.connect(audioCtx.destination);o.start();o.stop(t+0.7);},
+    slam:()=>{const b=audioCtx.createBuffer(1,audioCtx.sampleRate*0.3,audioCtx.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*Math.exp(-i/(audioCtx.sampleRate*0.03));const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();s.buffer=b;f.type='lowpass';f.frequency.value=250;g.gain.value=0.25;s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start();},
+    heartbeat_slow:()=>{for(let i=0;i<2;i++){const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type='sine';o.frequency.value=40+i*8;g.gain.setValueAtTime(0,t+i*0.4);g.gain.linearRampToValueAtTime(0.12,t+i*0.4+0.08);g.gain.exponentialRampToValueAtTime(0.001,t+i*0.4+0.5);o.connect(g);g.connect(audioCtx.destination);o.start(t+i*0.4);o.stop(t+i*0.4+0.6);}}
   };if(S[type])S[type]();}catch(e){}
 }
 function soundForText(text){
   const t=text.toLowerCase();
+  // Existing high-priority matches
   if(t.includes('carriage')||t.includes('wheels scream'))return'carriage';
   if(t.includes('crows')||t.includes('hound'))return'wolves';
   if(t.includes('knock'))return'knock';
@@ -248,11 +260,200 @@ function soundForText(text){
   if(t.includes('pour')||t.includes('glass of dark')||t.includes('drinking'))return'pour';
   if(t.includes('cellar')||t.includes('dampness')||t.includes('crate'))return'drip';
   if(t.includes('armor')||t.includes('blade')||t.includes('stake')||t.includes('sword'))return'bolt';
+  // Phase 4: New keyword matches
+  if(t.includes('whisper')||t.includes('murmur')||t.includes('hush'))return'whisper';
+  if(t.includes('chain')||t.includes('shackle')||t.includes('iron ring'))return'chains';
+  if(t.includes('creak')||t.includes('groan')||t.includes('floorboard'))return'creak';
+  if(t.includes('slam')||t.includes('thud')||t.includes('thuds shut'))return'slam';
+  if(t.includes('silence')||t.includes('still as death'))return'heartbeat_slow';
+  if(t.includes('shadow')||t.includes('darkness'))return'whisper';
+  if(t.includes('blood')||t.includes('vein'))return'drip';
+  if(t.includes('ship')||t.includes('demeter')||t.includes('voyage'))return'creak';
+  if(t.includes('soil')||t.includes('earth')||t.includes('grave'))return'slam';
+  if(t.includes('cold')||t.includes('frozen')||t.includes('ice'))return'wind';
+  if(t.includes('coffin')||t.includes('tomb')||t.includes('crypt'))return'slam';
+  if(t.includes('latch')||t.includes('lock')||t.includes('key'))return'chains';
+  if(t.includes('claw')||t.includes('scratch')||t.includes('scrape'))return'chains';
+  if(t.includes('moan')||t.includes('wail'))return'scream';
+  if(t.includes('ancient')||t.includes('centuries'))return'creak';
+  if(t.includes('hunger')||t.includes('thirst'))return'heartbeat_slow';
+  if(t.includes('flesh')||t.includes('skin')||t.includes('throat'))return'heartbeat_slow';
+  if(t.includes('sleep')||t.includes('dream'))return'whisper';
+  if(t.includes('dawn')||t.includes('sunrise')||t.includes('morning'))return'church';
+  if(t.includes('wolf')||t.includes('wolves')||t.includes('beast'))return'wolves';
   return null;
+}
+
+// === AMBIENT SOUND SYSTEM ===
+let ambientNodes=[], currentAmbient=null;
+function stopAmbient(){
+  ambientNodes.forEach(n=>{try{if(n.stop)n.stop();else if(n.disconnect)n.disconnect();}catch(e){}});
+  ambientNodes=[];
+}
+function playAmbient(type){
+  if(type===currentAmbient&&ambientNodes.length>0)return;
+  stopAmbient();
+  currentAmbient=type;
+  if(!soundEnabled||!audioCtx)return;
+  try{
+    const t=audioCtx.currentTime;
+    const profiles={
+      castle_exterior:()=>{
+        // Wind drone
+        const b=audioCtx.createBuffer(1,audioCtx.sampleRate*4,audioCtx.sampleRate),d=b.getChannelData(0);
+        for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;
+        const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();
+        s.buffer=b;s.loop=true;f.type='bandpass';f.frequency.value=250;f.Q.value=0.3;
+        g.gain.value=0.035;
+        // LFO on filter
+        const lfo=audioCtx.createOscillator(),lfoG=audioCtx.createGain();
+        lfo.type='sine';lfo.frequency.value=0.15;lfoG.gain.value=80;
+        lfo.connect(lfoG);lfoG.connect(f.frequency);lfo.start();
+        s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start();
+        ambientNodes.push(s,lfo);
+        // Low bass rumble
+        const o=audioCtx.createOscillator(),og=audioCtx.createGain();
+        o.type='sine';o.frequency.value=45;og.gain.value=0.025;
+        o.connect(og);og.connect(audioCtx.destination);o.start();
+        ambientNodes.push(o);
+      },
+      castle_interior:()=>{
+        // Fire crackle
+        const b=audioCtx.createBuffer(1,audioCtx.sampleRate*4,audioCtx.sampleRate),d=b.getChannelData(0);
+        for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*(0.3+0.7*Math.random());
+        const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();
+        s.buffer=b;s.loop=true;f.type='highpass';f.frequency.value=1000;g.gain.value=0.015;
+        s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start();
+        ambientNodes.push(s);
+        // Muffled wind
+        const b2=audioCtx.createBuffer(1,audioCtx.sampleRate*4,audioCtx.sampleRate),d2=b2.getChannelData(0);
+        for(let i=0;i<d2.length;i++)d2[i]=Math.random()*2-1;
+        const s2=audioCtx.createBufferSource(),f2=audioCtx.createBiquadFilter(),g2=audioCtx.createGain();
+        s2.buffer=b2;s2.loop=true;f2.type='lowpass';f2.frequency.value=200;g2.gain.value=0.02;
+        s2.connect(f2);f2.connect(g2);g2.connect(audioCtx.destination);s2.start();
+        ambientNodes.push(s2);
+      },
+      cellar:()=>{
+        // Low drone
+        const o=audioCtx.createOscillator(),og=audioCtx.createGain();
+        o.type='sine';o.frequency.value=55;og.gain.value=0.03;
+        o.connect(og);og.connect(audioCtx.destination);o.start();
+        ambientNodes.push(o);
+        // Periodic drip blips via looping buffer with sparse impulses
+        const b=audioCtx.createBuffer(1,audioCtx.sampleRate*6,audioCtx.sampleRate),d=b.getChannelData(0);
+        for(let i=0;i<d.length;i++){
+          if(Math.random()<0.00008)d[i]=(Math.random()-0.5)*0.6;
+          else d[i]=0;
+        }
+        const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();
+        s.buffer=b;s.loop=true;f.type='bandpass';f.frequency.value=1200;f.Q.value=5;g.gain.value=0.08;
+        s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start();
+        ambientNodes.push(s);
+      },
+      chapel:()=>{
+        // Eerie detuned interval
+        const o1=audioCtx.createOscillator(),o2=audioCtx.createOscillator();
+        const g1=audioCtx.createGain(),g2=audioCtx.createGain();
+        o1.type='sine';o1.frequency.value=220;g1.gain.value=0.02;
+        o2.type='sine';o2.frequency.value=233;g2.gain.value=0.02; // minor second
+        o1.connect(g1);g1.connect(audioCtx.destination);o1.start();
+        o2.connect(g2);g2.connect(audioCtx.destination);o2.start();
+        ambientNodes.push(o1,o2);
+        // Soft wind
+        const b=audioCtx.createBuffer(1,audioCtx.sampleRate*4,audioCtx.sampleRate),d=b.getChannelData(0);
+        for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;
+        const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();
+        s.buffer=b;s.loop=true;f.type='bandpass';f.frequency.value=200;f.Q.value=0.5;g.gain.value=0.015;
+        s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start();
+        ambientNodes.push(s);
+      },
+      boss_fight:()=>{
+        // Heartbeat loop
+        const o=audioCtx.createOscillator(),og=audioCtx.createGain();
+        o.type='sine';o.frequency.value=45;
+        const lfo=audioCtx.createOscillator(),lfoG=audioCtx.createGain();
+        lfo.type='square';lfo.frequency.value=1.2;lfoG.gain.value=0.08;
+        lfo.connect(lfoG);lfoG.connect(og.gain);
+        og.gain.value=0.0;
+        o.connect(og);og.connect(audioCtx.destination);o.start();lfo.start();
+        ambientNodes.push(o,lfo);
+        // Tension drone (minor second)
+        const t1=audioCtx.createOscillator(),t2=audioCtx.createOscillator();
+        const tg1=audioCtx.createGain(),tg2=audioCtx.createGain();
+        t1.type='sawtooth';t1.frequency.value=80;tg1.gain.value=0.015;
+        t2.type='sawtooth';t2.frequency.value=85;tg2.gain.value=0.015;
+        t1.connect(tg1);tg1.connect(audioCtx.destination);t1.start();
+        t2.connect(tg2);tg2.connect(audioCtx.destination);t2.start();
+        ambientNodes.push(t1,t2);
+      },
+      voyage:()=>{
+        // Wave-like noise
+        const b=audioCtx.createBuffer(1,audioCtx.sampleRate*6,audioCtx.sampleRate),d=b.getChannelData(0);
+        for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;
+        const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();
+        s.buffer=b;s.loop=true;f.type='lowpass';f.frequency.value=300;g.gain.value=0.03;
+        const lfo=audioCtx.createOscillator(),lfoG=audioCtx.createGain();
+        lfo.type='sine';lfo.frequency.value=0.1;lfoG.gain.value=0.02;
+        lfo.connect(lfoG);lfoG.connect(g.gain);
+        s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start();lfo.start();
+        ambientNodes.push(s,lfo);
+        // Periodic creaks
+        const b2=audioCtx.createBuffer(1,audioCtx.sampleRate*8,audioCtx.sampleRate),d2=b2.getChannelData(0);
+        for(let i=0;i<d2.length;i++){
+          if(Math.random()<0.00005)d2[i]=(Math.random()-0.5)*0.4;
+          else d2[i]=0;
+        }
+        const s2=audioCtx.createBufferSource(),f2=audioCtx.createBiquadFilter(),g2=audioCtx.createGain();
+        s2.buffer=b2;s2.loop=true;f2.type='bandpass';f2.frequency.value=300;f2.Q.value=3;g2.gain.value=0.06;
+        s2.connect(f2);f2.connect(g2);g2.connect(audioCtx.destination);s2.start();
+        ambientNodes.push(s2);
+      },
+      ending_good:()=>{
+        // Soft major triad
+        [262,330,392].forEach(fr=>{
+          const o=audioCtx.createOscillator(),g=audioCtx.createGain();
+          o.type='sine';o.frequency.value=fr;g.gain.value=0.02;
+          o.connect(g);g.connect(audioCtx.destination);o.start();
+          ambientNodes.push(o);
+        });
+      },
+      ending_dark:()=>{
+        // Dissonant low drone
+        const o1=audioCtx.createOscillator(),o2=audioCtx.createOscillator();
+        const g1=audioCtx.createGain(),g2=audioCtx.createGain();
+        o1.type='sawtooth';o1.frequency.value=55;g1.gain.value=0.02;
+        o2.type='sawtooth';o2.frequency.value=58.5;g2.gain.value=0.02;
+        o1.connect(g1);g1.connect(audioCtx.destination);o1.start();
+        o2.connect(g2);g2.connect(audioCtx.destination);o2.start();
+        ambientNodes.push(o1,o2);
+        // Tension
+        const o3=audioCtx.createOscillator(),g3=audioCtx.createGain();
+        o3.type='sine';o3.frequency.value=110;g3.gain.value=0.01;
+        o3.connect(g3);g3.connect(audioCtx.destination);o3.start();
+        ambientNodes.push(o3);
+      },
+      ending_neutral:()=>{
+        // Wind
+        const b=audioCtx.createBuffer(1,audioCtx.sampleRate*4,audioCtx.sampleRate),d=b.getChannelData(0);
+        for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;
+        const s=audioCtx.createBufferSource(),f=audioCtx.createBiquadFilter(),g=audioCtx.createGain();
+        s.buffer=b;s.loop=true;f.type='bandpass';f.frequency.value=200;f.Q.value=0.3;g.gain.value=0.025;
+        s.connect(f);f.connect(g);g.connect(audioCtx.destination);s.start();
+        ambientNodes.push(s);
+        // Gentle low drone
+        const o=audioCtx.createOscillator(),og=audioCtx.createGain();
+        o.type='sine';o.frequency.value=65;og.gain.value=0.015;
+        o.connect(og);og.connect(audioCtx.destination);o.start();
+        ambientNodes.push(o);
+      }
+    };
+    if(profiles[type])profiles[type]();
+  }catch(e){}
 }
 
 // === GAME STATE ===
 let V={},version=1,storyEl,revealQueue=[],revealChoicesEl=null,isRevealing=false;
+let pendingContinuation=null, awaitingContinuation=false;
 function resetState(){V={thirst:2,restraint:5,suspicion:0,sanity:5,fear:2,guest_name:"the traveler",dracula_relic:"",helsing_relic:"",sacred_ground:0,dominance:5,conviction:10};}
 function mod(k,d){V[k]+=d;}
 function g(){return V.guest_name;}
@@ -261,15 +462,41 @@ function g(){return V.guest_name;}
 function showPrompt(v){document.getElementById('clickPrompt').classList.toggle('visible',v);}
 function handleClick(e){if(e&&e.target&&(e.target.closest('.choice-btn')||e.target.closest('.restart-btn')||e.target.closest('.version-btn')||e.target.closest('.sound-toggle')))return;revealNext();}
 function revealNext(){
-  if(revealQueue.length===0){showPrompt(false);if(revealChoicesEl){const c=revealChoicesEl;revealChoicesEl=null;setTimeout(()=>{c.classList.add('revealed');c.scrollIntoView({behavior:'smooth',block:'end'});},50);}isRevealing=false;return;}
+  // If awaiting continuation, fire the stored callback
+  if(awaitingContinuation){
+    awaitingContinuation=false;
+    showPrompt(false);
+    const cb=pendingContinuation;
+    pendingContinuation=null;
+    if(cb)cb();
+    return;
+  }
+  // Nothing left to reveal
+  if(revealQueue.length===0){
+    if(revealChoicesEl){
+      const c=revealChoicesEl;revealChoicesEl=null;
+      isRevealing=false;
+      setTimeout(()=>{c.classList.add('revealed');c.scrollIntoView({behavior:'smooth',block:'end'});},50);
+      showPrompt(false);
+    } else if(pendingContinuation){
+      // All paragraphs shown, now wait for one more click to continue
+      awaitingContinuation=true;
+      showPrompt(true);
+    } else {
+      isRevealing=false;
+      showPrompt(false);
+    }
+    return;
+  }
+  // Reveal next element
   const el=revealQueue.shift();el.classList.add('revealed');
   const snd=soundForText(el.textContent||'');if(snd)playSound(snd);
   setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'end'}),50);
-  if(revealQueue.length>0)showPrompt(true);
-  else{showPrompt(false);if(revealChoicesEl){const c=revealChoicesEl;revealChoicesEl=null;setTimeout(()=>{c.classList.add('revealed');c.scrollIntoView({behavior:'smooth',block:'end'});},300);}isRevealing=false;}
+  if(revealQueue.length>0||revealChoicesEl||pendingContinuation)showPrompt(true);
+  else{showPrompt(false);isRevealing=false;}
 }
 
-function render(paragraphs,choices,extra){
+function render(paragraphs,choices,extra,onComplete){
   const passage=document.createElement('div');passage.className='passage';
   let elements=[];
   paragraphs.forEach(p=>{
@@ -299,39 +526,74 @@ function render(paragraphs,choices,extra){
       document.getElementById('titleScreen').classList.remove('hidden');
       document.getElementById('gameWrap').classList.remove('visible');
       document.getElementById('soundToggle').classList.remove('visible');
-      storyEl.innerHTML='';revealQueue=[];revealChoicesEl=null;isRevealing=false;showPrompt(false);
+      storyEl.innerHTML='';revealQueue=[];revealChoicesEl=null;isRevealing=false;
+      pendingContinuation=null;awaitingContinuation=false;
+      stopAmbient();currentAmbient=null;
+      showPrompt(false);
     });
-    // attach restart to the last element or passage
-    if(choicesDiv)choicesDiv.appendChild(btn);else{passage.appendChild(btn);elements.push(btn);}
+    // Bug D fix: restart button is always a standalone passage element
+    passage.appendChild(btn);elements.push(btn);
   }
+  // Store onComplete as pending continuation (only when no choices)
+  if(onComplete&&!choices){
+    pendingContinuation=onComplete;
+  } else {
+    pendingContinuation=null;
+  }
+  awaitingContinuation=false;
   storyEl.appendChild(passage);
   revealQueue.push(...elements);revealChoicesEl=choicesDiv;
-  if(!isRevealing){isRevealing=true;revealNext();if(revealQueue.length>0)showPrompt(true);}
+  if(!isRevealing){isRevealing=true;revealNext();}
 }
 
 // === STORY ===
-function intro(){render(['The mountains do not sleep, they wait.','Beneath the charcoal sky, a lone carriage clatters up the pass. Its wheels scream against the jagged stone, rumbling, cracking, resisting the ascent. As it passes, a murder of crows erupts from the pines like a splash of black ink, foreboding the forest of a new presence.','Inside, a man clutches his briefcase, a shield of leather and paper against the vision of the increasingly dark forest valley.'],[{text:'Watch the driver.',action:()=>{render(['The driver lashes the horses, his eyes wide. He looks not at the road, but at the sun sinking like a stone into the earth. The more it vanishes the harder he strokes the animals. It was as if time itself stood still as the last rays withdrew from the valley, rapidly, almost too rapidly.']);setTimeout(intro2,200);}},{text:'Watch the sun.',action:()=>{render(['The sun does not set here, it retreats. I watch the light flee from the valley floor, chased by a purple shadow that swallows the pines whole. Time feels heavy, thick, cold and final.']);setTimeout(intro2,200);}}]);}
-function intro2(){render(['On the horizon, my estate reveals itself as the light fades. A lonely silhouette of stone and iron, its shadow stands over the valley like a sentinel. It has seen its centuries of war, and it bears the scars with a cold, silent pride.','I stand at the high window. I do not feel the chill, but I see the mist cower against the glass. The vibration of the wheels hums through the floorboards, up through the soles of my boots.'],[{text:'Stay in the darkness of the window.',action:()=>{mod('restraint',1);render(['I linger in the gloom. I must compose myself. My skin is too pale, my hands too still. I must remember to breathe, a performance for the living.']);setTimeout(intro3,200);}},{text:'Move toward the door immediately.',action:()=>{mod('thirst',1);render(['The hunger is a sharp needle. I find myself at the top of the grand staircase before the carriage has even come to a full halt. I know it, for I can hear it, I can smell it too.']);setTimeout(intro3,200);}}]);}
-function intro3(){render(['The iron gates groan below, a sound of heavy metal protesting the intrusion. The sound of a door opening. The scent of the traveler drifts upward, salt, sweat, and the electric tang of fear.']);setTimeout(meeting_the_guest,200);}
-function meeting_the_guest(){render(['The carriage door clicks open. The traveler steps onto the gravel, his boots crunching with a rhythm that sounds like bone grinding on stone. He pauses, looking up at the oppressive height of the walls, before approaching the massive oak door.','He reaches for the heavy iron knocker, a gargoyle with a ring through its teeth.'],[{text:'The first knock.',action:()=>{render(['The sound echoes through the hollow stone of the hall, vibrating in my chest like a funeral bell.']);setTimeout(doorOpens,200);}},{text:'The second knock.',action:()=>{render(['I feel his hesitation. His heart is racing now, a frantic little engine.']);setTimeout(doorOpens,200);}},{text:'The third knock.',action:()=>{render(['The iron hits the wood for the final time.']);setTimeout(doorOpens,200);}}]);}
-function doorOpens(){let p=['The door heaves opening slowly, surely, as if the house itself were drawing a deep, reluctant breath.'];if(V.thirst>2){p.push('I am standing right there in the threshold, a shadow carved out of the interior gloom. The man gasps, stumbling back a half-step. I am closer than a host should be. I can smell the damp wool of his coat and the salt of his skin.');V.suspicion+=1;V.fear+=2;}else{p.push('I stand at the very top, my hand resting on the cold marble banister. I am a distant, regal silhouette against the high window.');V.restraint+=1;}p.push('"Welcome to my home," I say. My voice carries through the cavernous foyer, flat and ancient.');p.push('The figure steps into the light of the foyer, and I finally see which soul the agency has sent me.');render(p,[{text:'It is a young man in a crisp suit.',action:()=>{V.guest_name="Mr. Harker";render(['"My name is Jonathan Harker, Count," he says, smoothing his lapels despite his trembling hands. "I am a solicitor\'s clerk from London. I have traveled many miles with the deeds for your new estate."'],[{text:'Analyze him.',action:()=>{mod('thirst',1);render(['He is young. His blood is vibrant, pulsing with the ambition of a man who has everything to live for.']);setTimeout(afterGuest,200);}}]);}},{text:'It is an older man with piercing, analytical eyes.',action:()=>{V.guest_name="Dr. Van Helsing";V.suspicion+=2;render(['"I am Abraham Van Helsing," he says, his voice a steady, low rasp. "I have come from Amsterdam at the request of the historical society. Your new purchase in Purfleet is... of great interest to my research."'],[{text:'Analyze him.',action:()=>{mod('restraint',2);render(['He smells of garlic and dried herbs. He was not whom I expected. I do love a good game of chess.']);setTimeout(afterGuest,200);}}]);}},{text:'It is a twitchy man with a stained collar.',action:()=>{V.guest_name="Mr. Renfield";render(['"Renfield, sir. Just Renfield," he whispers, bowing so low his forehead nearly touches the stone. "The agency said you needed... logistics. I am very good at counting things. Moving things. Serving things."'],[{text:'Analyze him.',action:()=>{mod('thirst',2);mod('restraint',-1);mod('sanity',-1);render(['His mind is already fractured. He would be easy to break, but his blood tastes of frantic, bitter adrenaline.']);setTimeout(afterGuest,200);}}]);}}]);}
-function afterGuest(){let ch=[];if(V.thirst>2)ch.push({text:'Step aside (at the door).',action:()=>{render(['"The locals are slaves to the sun," I say. "Step freely, and of your own will."']);setTimeout(enterEstate,200);}});else ch.push({text:'Descend the stairs.',action:()=>{render(['I glide down the stone steps. "Time is of little consequence here. Come. You must be frozen."']);setTimeout(enterEstate,200);}});render([`"I apologize for the hour," ${g()} says. "The driver was in a great hurry to leave."`],ch);}
-function enterEstate(){render(['He enters, and the heavy door thuds shut. The sound of the bolt sliding into place echoes across every corridor of the estate, and lingers.',`"It is... a very grand place, sir," ${g()} says, though his voice trembles as the darkness of the hall swallows the meager candlelight.`],[{text:'Lead him to the library.',action:()=>{mod('restraint',1);render([`${g()} nods as he marvels upon the old relics, tapestry and relics that cover the walls of the vast corridor leading to the library.`,'"We have much to discuss. I understand my move has drawn a commotion in the town. London is a long way from these mountains."','"Indeed Count, you are the biggest benefactor of the township, yet I don\'t understand..."','"Why there are so many rumors? Pay no mind to the townsfolk, they mean well. I am a recluse and of a different social stature; they fear what they do not understand. They make up stories to pass the time. I do my best to assist financially to the city, but I am after all just an old relic of a bygone era."']);setTimeout(the_drink_scene,200);}}]);}
-function the_drink_scene(){let p=['The library is a cold vault of knowledge. I have prepared a small fire, not for my comfort, but for his. The flames dance in his eyes, but they do not warm the stone.','"You look parched," I say, pouring a glass of dark, thick liquid.'];if(g()==="Mr. Harker"){p.push('He accepts the glass with a polite nod, his hand shaking slightly. "Thank you, Count. It has been a grueling ascent." He takes a long drink, the liquid staining his lips.');mod('fear',1);mod('thirst',1);}else if(g()==="Dr. Van Helsing"){p.push('He watches the liquid swirl in the glass but does not move to touch it. "I find that water and wine sit poorly with me on these mountain roads," he says, his eyes fixed on mine. He refuses, and I feel his suspicion harden like frost.');mod('suspicion',2);mod('restraint',1);}else{p.push('He stares at the glass, his eyes wide and hungry. I lean in, whispering of the vitality it brings. I manipulate his fragile mind until he clutches the glass with both hands, drinking it down with a desperate, wet sound.');mod('sanity',-2);mod('thirst',1);}render(p);setTimeout(signing_the_deeds,300);}
+function intro(){
+  playAmbient('castle_exterior');
+  render(['The mountains do not sleep, they wait.','Beneath the charcoal sky, a lone carriage clatters up the pass. Its wheels scream against the jagged stone, rumbling, cracking, resisting the ascent. As it passes, a murder of crows erupts from the pines like a splash of black ink, foreboding the forest of a new presence.','Inside, a man clutches his briefcase, a shield of leather and paper against the vision of the increasingly dark forest valley.'],[{text:'Watch the driver.',action:()=>{render(['The driver lashes the horses, his eyes wide. He looks not at the road, but at the sun sinking like a stone into the earth. The more it vanishes the harder he strokes the animals. It was as if time itself stood still as the last rays withdrew from the valley, rapidly, almost too rapidly.'],null,null,intro2);}},{text:'Watch the sun.',action:()=>{render(['The sun does not set here, it retreats. I watch the light flee from the valley floor, chased by a purple shadow that swallows the pines whole. Time feels heavy, thick, cold and final.'],null,null,intro2);}}]);
+}
+function intro2(){render(['On the horizon, my estate reveals itself as the light fades. A lonely silhouette of stone and iron, its shadow stands over the valley like a sentinel. It has seen its centuries of war, and it bears the scars with a cold, silent pride.','I stand at the high window. I do not feel the chill, but I see the mist cower against the glass. The vibration of the wheels hums through the floorboards, up through the soles of my boots.'],[{text:'Stay in the darkness of the window.',action:()=>{mod('restraint',1);render(['I linger in the gloom. I must compose myself. My skin is too pale, my hands too still. I must remember to breathe, a performance for the living.'],null,null,intro3);}},{text:'Move toward the door immediately.',action:()=>{mod('thirst',1);render(['The hunger is a sharp needle. I find myself at the top of the grand staircase before the carriage has even come to a full halt. I know it, for I can hear it, I can smell it too.'],null,null,intro3);}}]);}
+function intro3(){render(['The iron gates groan below, a sound of heavy metal protesting the intrusion. The sound of a door opening. The scent of the traveler drifts upward, salt, sweat, and the electric tang of fear.'],null,null,meeting_the_guest);}
+function meeting_the_guest(){render(['The carriage door clicks open. The traveler steps onto the gravel, his boots crunching with a rhythm that sounds like bone grinding on stone. He pauses, looking up at the oppressive height of the walls, before approaching the massive oak door.','He reaches for the heavy iron knocker, a gargoyle with a ring through its teeth.'],[{text:'The first knock.',action:()=>{render(['The sound echoes through the hollow stone of the hall, vibrating in my chest like a funeral bell.'],null,null,doorOpens);}},{text:'The second knock.',action:()=>{render(['I feel his hesitation. His heart is racing now, a frantic little engine.'],null,null,doorOpens);}},{text:'The third knock.',action:()=>{render(['The iron hits the wood for the final time.'],null,null,doorOpens);}}]);}
+function doorOpens(){let p=['The door heaves opening slowly, surely, as if the house itself were drawing a deep, reluctant breath.'];if(V.thirst>2){p.push('I am standing right there in the threshold, a shadow carved out of the interior gloom. The man gasps, stumbling back a half-step. I am closer than a host should be. I can smell the damp wool of his coat and the salt of his skin.');V.suspicion+=1;V.fear+=2;}else{p.push('I stand at the very top, my hand resting on the cold marble banister. I am a distant, regal silhouette against the high window.');V.restraint+=1;}p.push('"Welcome to my home," I say. My voice carries through the cavernous foyer, flat and ancient.');p.push('The figure steps into the light of the foyer, and I finally see which soul the agency has sent me.');render(p,[{text:'It is a young man in a crisp suit.',action:()=>{V.guest_name="Mr. Harker";render(['"My name is Jonathan Harker, Count," he says, smoothing his lapels despite his trembling hands. "I am a solicitor\'s clerk from London. I have traveled many miles with the deeds for your new estate."'],[{text:'Analyze him.',action:()=>{mod('thirst',1);render(['He is young. His blood is vibrant, pulsing with the ambition of a man who has everything to live for.'],null,null,afterGuest);}}]);}},{text:'It is an older man with piercing, analytical eyes.',action:()=>{V.guest_name="Dr. Van Helsing";V.suspicion+=2;render(['"I am Abraham Van Helsing," he says, his voice a steady, low rasp. "I have come from Amsterdam at the request of the historical society. Your new purchase in Purfleet is... of great interest to my research."'],[{text:'Analyze him.',action:()=>{mod('restraint',2);render(['He smells of garlic and dried herbs. He was not whom I expected. I do love a good game of chess.'],null,null,afterGuest);}}]);}},{text:'It is a twitchy man with a stained collar.',action:()=>{V.guest_name="Mr. Renfield";render(['"Renfield, sir. Just Renfield," he whispers, bowing so low his forehead nearly touches the stone. "The agency said you needed... logistics. I am very good at counting things. Moving things. Serving things."'],[{text:'Analyze him.',action:()=>{mod('thirst',2);mod('restraint',-1);mod('sanity',-1);render(['His mind is already fractured. He would be easy to break, but his blood tastes of frantic, bitter adrenaline.'],null,null,afterGuest);}}]);}}]);}
+function afterGuest(){let ch=[];if(V.thirst>2)ch.push({text:'Step aside (at the door).',action:()=>{render(['"The locals are slaves to the sun," I say. "Step freely, and of your own will."'],null,null,enterEstate);}});else ch.push({text:'Descend the stairs.',action:()=>{render(['I glide down the stone steps. "Time is of little consequence here. Come. You must be frozen."'],null,null,enterEstate);}});render([`"I apologize for the hour," ${g()} says. "The driver was in a great hurry to leave."`],ch);}
+function enterEstate(){
+  playAmbient('castle_interior');
+  render(['He enters, and the heavy door thuds shut. The sound of the bolt sliding into place echoes across every corridor of the estate, and lingers.',`"It is... a very grand place, sir," ${g()} says, though his voice trembles as the darkness of the hall swallows the meager candlelight.`],[{text:'Lead him to the library.',action:()=>{mod('restraint',1);render([`${g()} nods as he marvels upon the old relics, tapestry and relics that cover the walls of the vast corridor leading to the library.`,'"We have much to discuss. I understand my move has drawn a commotion in the town. London is a long way from these mountains."','"Indeed Count, you are the biggest benefactor of the township, yet I don\'t understand..."','"Why there are so many rumors? Pay no mind to the townsfolk, they mean well. I am a recluse and of a different social stature; they fear what they do not understand. They make up stories to pass the time. I do my best to assist financially to the city, but I am after all just an old relic of a bygone era."'],null,null,the_drink_scene);}}]);
+}
+function the_drink_scene(){let p=['The library is a cold vault of knowledge. I have prepared a small fire, not for my comfort, but for his. The flames dance in his eyes, but they do not warm the stone.','"You look parched," I say, pouring a glass of dark, thick liquid.'];if(g()==="Mr. Harker"){p.push('He accepts the glass with a polite nod, his hand shaking slightly. "Thank you, Count. It has been a grueling ascent." He takes a long drink, the liquid staining his lips.');mod('fear',1);mod('thirst',1);}else if(g()==="Dr. Van Helsing"){p.push('He watches the liquid swirl in the glass but does not move to touch it. "I find that water and wine sit poorly with me on these mountain roads," he says, his eyes fixed on mine. He refuses, and I feel his suspicion harden like frost.');mod('suspicion',2);mod('restraint',1);}else{p.push('He stares at the glass, his eyes wide and hungry. I lean in, whispering of the vitality it brings. I manipulate his fragile mind until he clutches the glass with both hands, drinking it down with a desperate, wet sound.');mod('sanity',-2);mod('thirst',1);}render(p,null,null,signing_the_deeds);}
 function signing_the_deeds(){let p=[`${g()} sits, opening his bag as the firelight flickers against the leather.`];if(g()==="Mr. Harker")p.push('He lays out the map of London. His finger traces the Thames, he speaks, but my ears are focused over his mouth, down his cheeks and right on his neck, over the pulse of his artery.');else if(g()==="Dr. Van Helsing")p.push('He places a heavy, silver-latched book on the table. He watches my hands very closely as I reach for the maps.');else p.push('He is distracted. He keeps looking at the corners of the room, whispering to himself. "The flies," he mutters. "So much life in a tiny thing."');p.push('The quill scratches against the parchment with a sound like a claw on a dry bone. London. Purfleet. An old chapel. My new kingdom. I sign my name with a sharp, jagged flourish.');render(p,[{text:`"Before we retire," ${g()} says, "would it be possible to see a bit more of the architecture?"`,action:the_tour}]);}
 function the_tour(){render(['I feel the hunger stir, a cold viper in my gut. Leading a living being into the deeper shadows is a dangerous game.'],[{text:'Lead him to the Great Hall.',action:tour_great_hall},{text:'Lead him to the Portrait Gallery.',action:tour_portraits},{text:'Lead him down to the Cellar.',action:tour_cellar},{text:'Lead him to the ruined Chapel.',action:tour_chapel}]);}
-function tour_great_hall(){render(['The air here is stagnant, smelling of iron and forgotten wars.']);let ch=[{text:'Show him the ancient armor.',action:()=>{if(g()==="Mr. Harker"){mod('suspicion',-1);mod('fear',1);if(version===2)V.helsing_relic="discrepancy";render(['"My word, it is like stepping back into the Crusades," he whispers.']);}else if(g()==="Dr. Van Helsing"){mod('suspicion',2);if(version===2)V.helsing_relic="sash";render(['"A peculiar mark on this gorget. It looks like it was struck by a blessed bolt," he notes.']);}else{mod('sanity',-2);if(version===2)V.helsing_relic="spoon";render(['"Empty shells! Just cold, hollow iron!" he cringes.']);}setTimeout(library_tension,300);}},{text:'Point out the lack of mirrors.',action:()=>{mod('suspicion',2);mod('restraint',1);if(g()==="Mr. Harker"){mod('fear',2);if(version===2)V.helsing_relic="discrepancy";}if(g()==="Dr. Van Helsing"&&version===2)V.helsing_relic="sash";if(g()==="Mr. Renfield"&&version===2)V.helsing_relic="spoon";render(['"I find the vanity of glass to be a modern distraction."']);setTimeout(library_tension,300);}}];if(version===2)ch.push({text:'Run a finger along the ancient Ottoman blade.',action:()=>{V.dracula_relic="blade";mod('thirst',1);if(g()==="Mr. Harker")V.helsing_relic="discrepancy";if(g()==="Dr. Van Helsing")V.helsing_relic="sash";if(g()==="Mr. Renfield")V.helsing_relic="spoon";render(['I feel the thirst for old conquests.']);setTimeout(library_tension,300);}});render([],ch);}
-function tour_portraits(){render(['The eyes of the painted lords seem to follow us, fixed in their eternal, pigment-locked gaze.'],[{text:'Claim the man is a distant ancestor.',action:()=>{if(g()==="Mr. Harker"){mod('suspicion',1);mod('fear',1);render(['"The likeness is truly remarkable," he says.']);}else if(g()==="Dr. Van Helsing"){mod('suspicion',3);render(['"The pigment is old, but the eyes look as though they were painted yesterday," he remarks.']);}else{mod('sanity',-2);render(['He falls to his knees. "The always-was and always-will-be!"']);}setTimeout(library_tension,300);}}]);}
-function tour_cellar(){render(['The dampness clings to our skin, and the silence is so thick it feels physical.']);let ch=[{text:'Show him the rows of heavy crates.',action:()=>{if(g()==="Mr. Harker"){mod('suspicion',1);mod('fear',2);if(version===2)V.helsing_relic="grease";render(['"These contain the soil of my homeland. I cannot part with it."','"A sentimental man," he says, though he looks at the dirt with confusion.']);}else if(g()==="Dr. Van Helsing"){mod('suspicion',2);if(version===2)V.helsing_relic="salt_vial";render(['"These contain the soil of my homeland. I cannot part with it."','He touches the wood of a crate. "Native earth. It is a powerful anchor for some."']);}else{mod('sanity',-3);if(version===2)V.helsing_relic="spider";render(['"These contain the soil of my homeland. I cannot part with it."','He tries to crawl into one of the crates. "Let me in, Master!"']);}setTimeout(library_tension,300);}}];if(version===2)ch.push({text:'Pocket a handful of the blackened, ancestral soil.',action:()=>{V.dracula_relic="soil";if(g()==="Mr. Harker")V.helsing_relic="grease";if(g()==="Dr. Van Helsing")V.helsing_relic="salt_vial";if(g()==="Mr. Renfield")V.helsing_relic="spider";render(['The earth hums against my thigh. My strength is renewed.']);setTimeout(library_tension,300);}});render([],ch);}
-function tour_chapel(){render(['The broken altar stands under the gaze of a moon that looks like a blind, white eye.']);let ch=[{text:'Stand near the broken crucifix.',action:()=>{if(g()==="Mr. Harker"){mod('restraint',1);mod('fear',1);if(version===2)V.helsing_relic="locket";render(['"It is a shame to see such a holy place in ruin," he sighs.']);}else if(g()==="Dr. Van Helsing"){mod('suspicion',3);if(version===2)V.helsing_relic="iron_key";render(['He pulls a rosary from his pocket. "The stones remember the prayers."']);}else{mod('sanity',-2);mod('thirst',2);if(version===2)V.helsing_relic="wax";render(['"The cross bites the eyes!" he howls.']);}setTimeout(library_tension,300);}}];if(version===2)ch.push({text:'Snatch a shard of the broken stained glass.',action:()=>{V.dracula_relic="glass";if(g()==="Mr. Harker")V.helsing_relic="locket";if(g()==="Dr. Van Helsing")V.helsing_relic="iron_key";if(g()==="Mr. Renfield")V.helsing_relic="wax";render(['The jagged edge draws no blood, but it glows with a pale light.']);setTimeout(library_tension,300);}});render([],ch);}
-function library_tension(){let p=[];if(g()==="Mr. Harker"){p.push('As he pulls a heavy ledger from his bag, a sharp edge of the vellum catches his thumb. He does not notice at first, but I can\'t help to. A bead of crimson wells up, bright and hot against the white paper.','The smell hits me like a physical blow. It is sweet, metallic and loud.');}else if(g()==="Dr. Van Helsing"){p.push('He reaches for a silver letter opener on the table. He handles it with practiced ease, but he slips almost on purpose, grazing his palm. He watches me, not the wound, as the red line appears.');}else{p.push('He is frantic, his hands shaking as he tries to show me a diagram. He catches his nail on a rough wooden splinter of the table. He winces, sucking on the finger, but the copper tang fills the air between us. And I can\'t help to fixate on the path of ruby droplets that run across the table and into his mouth.');}render(p,[{text:'Fixate on the wound.',action:()=>{mod('thirst',3);mod('restraint',-2);render(['I cannot look away. The way the liquid moves, clinging to the skin, is hypnotic. I can hear the thrumming of his heart accelerating.']);setTimeout(tension_question,300);}},{text:'Force yourself to look into his eyes.',action:()=>{mod('restraint',2);mod('thirst',1);render(['I stare into his eyes watching his every move closely. I grip the edge of the table until the ancient oak groans.']);setTimeout(tension_question,300);}}]);}
-function tension_question(){render([`${g()} notices my stillness. The silence in the library stretches, becoming heavy and suffocating.`],[{text:`"Are you quite well, sir?" ${g()} asks.`,action:()=>{mod('suspicion',1);if(g()==="Mr. Harker")mod('fear',1);render(['"I am merely reflecting on the journey ahead," I rasp.']);setTimeout(tension_check,300);}}]);}
+// Bug E fix: merged double render into single render with description + choices
+function tour_great_hall(){
+  let ch=[{text:'Show him the ancient armor.',action:()=>{if(g()==="Mr. Harker"){mod('suspicion',-1);mod('fear',1);if(version===2)V.helsing_relic="discrepancy";render(['"My word, it is like stepping back into the Crusades," he whispers.'],null,null,library_tension);}else if(g()==="Dr. Van Helsing"){mod('suspicion',2);if(version===2)V.helsing_relic="sash";render(['"A peculiar mark on this gorget. It looks like it was struck by a blessed bolt," he notes.'],null,null,library_tension);}else{mod('sanity',-2);if(version===2)V.helsing_relic="spoon";render(['"Empty shells! Just cold, hollow iron!" he cringes.'],null,null,library_tension);}}},{text:'Point out the lack of mirrors.',action:()=>{mod('suspicion',2);mod('restraint',1);if(g()==="Mr. Harker"){mod('fear',2);if(version===2)V.helsing_relic="discrepancy";}if(g()==="Dr. Van Helsing"&&version===2)V.helsing_relic="sash";if(g()==="Mr. Renfield"&&version===2)V.helsing_relic="spoon";render(['"I find the vanity of glass to be a modern distraction."'],null,null,library_tension);}}];
+  if(version===2)ch.push({text:'Run a finger along the ancient Ottoman blade.',action:()=>{V.dracula_relic="blade";mod('thirst',1);if(g()==="Mr. Harker")V.helsing_relic="discrepancy";if(g()==="Dr. Van Helsing")V.helsing_relic="sash";if(g()==="Mr. Renfield")V.helsing_relic="spoon";render(['I feel the thirst for old conquests.'],null,null,library_tension);}});
+  render(['The air here is stagnant, smelling of iron and forgotten wars.'],ch);
+}
+function tour_portraits(){render(['The eyes of the painted lords seem to follow us, fixed in their eternal, pigment-locked gaze.'],[{text:'Claim the man is a distant ancestor.',action:()=>{if(g()==="Mr. Harker"){mod('suspicion',1);mod('fear',1);render(['"The likeness is truly remarkable," he says.'],null,null,library_tension);}else if(g()==="Dr. Van Helsing"){mod('suspicion',3);render(['"The pigment is old, but the eyes look as though they were painted yesterday," he remarks.'],null,null,library_tension);}else{mod('sanity',-2);render(['He falls to his knees. "The always-was and always-will-be!"'],null,null,library_tension);}}}]);}
+// Bug E fix: merged double render into single render with description + choices
+function tour_cellar(){
+  playAmbient('cellar');
+  let ch=[{text:'Show him the rows of heavy crates.',action:()=>{if(g()==="Mr. Harker"){mod('suspicion',1);mod('fear',2);if(version===2)V.helsing_relic="grease";render(['"These contain the soil of my homeland. I cannot part with it."','"A sentimental man," he says, though he looks at the dirt with confusion.'],null,null,library_tension);}else if(g()==="Dr. Van Helsing"){mod('suspicion',2);if(version===2)V.helsing_relic="salt_vial";render(['"These contain the soil of my homeland. I cannot part with it."','He touches the wood of a crate. "Native earth. It is a powerful anchor for some."'],null,null,library_tension);}else{mod('sanity',-3);if(version===2)V.helsing_relic="spider";render(['"These contain the soil of my homeland. I cannot part with it."','He tries to crawl into one of the crates. "Let me in, Master!"'],null,null,library_tension);}}}];
+  if(version===2)ch.push({text:'Pocket a handful of the blackened, ancestral soil.',action:()=>{V.dracula_relic="soil";if(g()==="Mr. Harker")V.helsing_relic="grease";if(g()==="Dr. Van Helsing")V.helsing_relic="salt_vial";if(g()==="Mr. Renfield")V.helsing_relic="spider";render(['The earth hums against my thigh. My strength is renewed.'],null,null,library_tension);}});
+  render(['The dampness clings to our skin, and the silence is so thick it feels physical.'],ch);
+}
+// Bug E fix: merged double render into single render with description + choices
+function tour_chapel(){
+  playAmbient('chapel');
+  let ch=[{text:'Stand near the broken crucifix.',action:()=>{if(g()==="Mr. Harker"){mod('restraint',1);mod('fear',1);if(version===2)V.helsing_relic="locket";render(['"It is a shame to see such a holy place in ruin," he sighs.'],null,null,library_tension);}else if(g()==="Dr. Van Helsing"){mod('suspicion',3);if(version===2)V.helsing_relic="iron_key";render(['He pulls a rosary from his pocket. "The stones remember the prayers."'],null,null,library_tension);}else{mod('sanity',-2);mod('thirst',2);if(version===2)V.helsing_relic="wax";render(['"The cross bites the eyes!" he howls.'],null,null,library_tension);}}}];
+  if(version===2)ch.push({text:'Snatch a shard of the broken stained glass.',action:()=>{V.dracula_relic="glass";if(g()==="Mr. Harker")V.helsing_relic="locket";if(g()==="Dr. Van Helsing")V.helsing_relic="iron_key";if(g()==="Mr. Renfield")V.helsing_relic="wax";render(['The jagged edge draws no blood, but it glows with a pale light.'],null,null,library_tension);}});
+  render(['The broken altar stands under the gaze of a moon that looks like a blind, white eye.'],ch);
+}
+function library_tension(){
+  playAmbient('castle_interior');
+  let p=[];if(g()==="Mr. Harker"){p.push('As he pulls a heavy ledger from his bag, a sharp edge of the vellum catches his thumb. He does not notice at first, but I can\'t help to. A bead of crimson wells up, bright and hot against the white paper.','The smell hits me like a physical blow. It is sweet, metallic and loud.');}else if(g()==="Dr. Van Helsing"){p.push('He reaches for a silver letter opener on the table. He handles it with practiced ease, but he slips almost on purpose, grazing his palm. He watches me, not the wound, as the red line appears.');}else{p.push('He is frantic, his hands shaking as he tries to show me a diagram. He catches his nail on a rough wooden splinter of the table. He winces, sucking on the finger, but the copper tang fills the air between us. And I can\'t help to fixate on the path of ruby droplets that run across the table and into his mouth.');}render(p,[{text:'Fixate on the wound.',action:()=>{mod('thirst',3);mod('restraint',-2);render(['I cannot look away. The way the liquid moves, clinging to the skin, is hypnotic. I can hear the thrumming of his heart accelerating.'],null,null,tension_question);}},{text:'Force yourself to look into his eyes.',action:()=>{mod('restraint',2);mod('thirst',1);render(['I stare into his eyes watching his every move closely. I grip the edge of the table until the ancient oak groans.'],null,null,tension_question);}}]);
+}
+function tension_question(){render([`${g()} notices my stillness. The silence in the library stretches, becoming heavy and suffocating.`],[{text:`"Are you quite well, sir?" ${g()} asks.`,action:()=>{mod('suspicion',1);if(g()==="Mr. Harker")mod('fear',1);render(['"I am merely reflecting on the journey ahead," I rasp.'],null,null,tension_check);}}]);}
 function tension_check(){
   if(V.thirst>8){early_ending_feast();return;}
-  // FIX: Van Helsing's high suspicion routes to boss fight, not early flight
   if(g()==="Dr. Van Helsing"){if(V.fear>6){early_ending_flight();return;}}
   else{if(V.suspicion>5||V.fear>6){early_ending_flight();return;}}
-  render([],[{text:'Offer to bind the wound.',action:()=>{mod('thirst',1);render(['I take out a silk handkerchief. I step closer, my movement too fast, too fluid. I am a blur of black cloth.'],[{text:'Take his hand to clean it.',action:()=>{mod('thirst',3);mod('restraint',-2);if(g()==="Mr. Harker")mod('fear',2);if(V.thirst>9){early_ending_feast();return;}render(['The heat of his skin is like a furnace. I can feel the life vibrating in his palm.','"There," I whisper. "The bleeding has... stopped."']);setTimeout(final_check,300);}},{text:'Hand him the cloth and step back.',action:()=>{mod('restraint',1);mod('suspicion',1);render(['"Clean yourself," I say, my voice trembling with the effort of the lie. "I find the sight of it... distasteful."']);setTimeout(final_check,300);}}]);}},{text:'Demand he finish the signatures immediately.',action:()=>{mod('suspicion',1);mod('restraint',1);if(g()==="Mr. Harker")mod('fear',1);render(['"The night is wasting," I growl. "Sign the deeds for the Purfleet estate. Now."']);setTimeout(final_check,300);}}]);
+  render([],[{text:'Offer to bind the wound.',action:()=>{mod('thirst',1);render(['I take out a silk handkerchief. I step closer, my movement too fast, too fluid. I am a blur of black cloth.'],[{text:'Take his hand to clean it.',action:()=>{mod('thirst',3);mod('restraint',-2);if(g()==="Mr. Harker")mod('fear',2);if(V.thirst>9){early_ending_feast();return;}render(['The heat of his skin is like a furnace. I can feel the life vibrating in his palm.','"There," I whisper. "The bleeding has... stopped."'],null,null,final_check);}},{text:'Hand him the cloth and step back.',action:()=>{mod('restraint',1);mod('suspicion',1);render(['"Clean yourself," I say, my voice trembling with the effort of the lie. "I find the sight of it... distasteful."'],null,null,final_check);}}]);}},{text:'Demand he finish the signatures immediately.',action:()=>{mod('suspicion',1);mod('restraint',1);if(g()==="Mr. Harker")mod('fear',1);render(['"The night is wasting," I growl. "Sign the deeds for the Purfleet estate. Now."'],null,null,final_check);}}]);
 }
 function final_check(){
   if(version===2){if(g()==="Dr. Van Helsing"&&V.suspicion>6){van_helsing_boss_fight();return;}if(g()==="Mr. Renfield"&&V.sanity<2){renfield_boss_fight();return;}if(g()==="Mr. Harker"&&(V.suspicion>4||V.fear>6)){harker_boss_fight();return;}}
@@ -340,46 +602,98 @@ function final_check(){
   final_outcome();
 }
 // V1 bosses
-function van_helsing_boss_v1(){render(['"I knew what you were, and I have come for your demise!" Van Helsing shouts, pulling a stake.'],[{text:'Leap to the rafters.',action:vhRiddle},{text:'Hiss and strike.',action:vhRiddle}]);}
-function vhRiddle(){render(['"Tell me," he cries, "what is the one thing your kind fears more than the stake?"'],[{text:'The Sun.',action:()=>{render(['"The Great Eye that turns my blood to ash," I hiss.']);setTimeout(vhRiddle2,300);}},{text:'The Cross.',action:()=>{render(['"The symbol of a light I can no longer see."']);setTimeout(vhRiddle2,300);}}]);}
-function vhRiddle2(){render(['He lunges with the stake. "I am the thing that grows shorter as I grow older. What am I?"'],[{text:'A Shadow.',action:early_ending_death},{text:'A Candle.',action:()=>{render(['"The light that consumes itself," I whisper in his ear.']);setTimeout(()=>{V.thirst>7?bad_ending():good_ending();},300);}}]);}
-function renfield_hypnosis(){render(['"The Master is strong," Renfield whispers, his eyes rolling back. "The Master has the life."','"Look into my eyes, Renfield. What is the seat of the soul?"'],[{text:'The Blood.',action:()=>{render(['"Yes. The red river. It is yours to serve."','"I have no voice but speaks, no wings but flies. What am I?"'],[{text:'The Wind.',action:()=>{render(['"The wind that carries your scent, Master!"','ENDING: THE PUPPET MASTER']);setTimeout(end_reveal_v1,300);}},{text:'The Night.',action:renfield_flees}]);}},{text:'The Brain.',action:renfield_flees}]);}
+function van_helsing_boss_v1(){
+  playAmbient('boss_fight');
+  render(['"I knew what you were, and I have come for your demise!" Van Helsing shouts, pulling a stake.'],[{text:'Leap to the rafters.',action:vhRiddle},{text:'Hiss and strike.',action:vhRiddle}]);
+}
+function vhRiddle(){render(['"Tell me," he cries, "what is the one thing your kind fears more than the stake?"'],[{text:'The Sun.',action:()=>{render(['"The Great Eye that turns my blood to ash," I hiss.'],null,null,vhRiddle2);}},{text:'The Cross.',action:()=>{render(['"The symbol of a light I can no longer see."'],null,null,vhRiddle2);}}]);}
+function vhRiddle2(){render(['He lunges with the stake. "I am the thing that grows shorter as I grow older. What am I?"'],[{text:'A Shadow.',action:early_ending_death},{text:'A Candle.',action:()=>{render(['"The light that consumes itself," I whisper in his ear.'],null,null,()=>{V.thirst>7?bad_ending():good_ending();});}}]);}
+function renfield_hypnosis(){
+  playAmbient('boss_fight');
+  render(['"The Master is strong," Renfield whispers, his eyes rolling back. "The Master has the life."','"Look into my eyes, Renfield. What is the seat of the soul?"'],[{text:'The Blood.',action:()=>{render(['"Yes. The red river. It is yours to serve."','"I have no voice but speaks, no wings but flies. What am I?"'],[{text:'The Wind.',action:()=>{render(['"The wind that carries your scent, Master!"','ENDING: THE PUPPET MASTER'],null,null,end_reveal_v1);}},{text:'The Night.',action:renfield_flees}]);}},{text:'The Brain.',action:renfield_flees}]);
+}
 function end_reveal_v1(){render(['I stand before the mirror in the hall, looking at the frame that holds nothing but the reflection of the empty air.','Soon I shall sail to my new home.','---'],null,'restart');}
 // V2 bosses
-function harker_boss_fight(){render(['Harker backs into the corner of the library, his briefcase held up like a shield. "I have read the fine print, Count! You cannot keep me here. The law of nations protects a British subject!"'],[{text:'Mock his "Law".',action:()=>{V.dominance+=2;render(['"I am the law in these mountains, Jonathan. Every stone you stand on was laid by my command."']);setTimeout(harker_relics,300);}},{text:'Threaten his future.',action:()=>{V.conviction-=3;render(['"London is a city of fog. A man could go missing in the docks and never be found by his \'law\'."']);setTimeout(harker_relics,300);}}]);}
-function harker_relics(){let p=[];if(V.helsing_relic==="locket"){p.push('He snaps open the gold case he found in the chapel. The image of Mina Murray glows in the candlelight. "I do not fight for the law, Monster. I fight for her!"');V.conviction+=6;V.sacred_ground+=1;}if(V.helsing_relic==="discrepancy"){p.push('"You signed the 1462 charter with the same hand that signed these deeds!" he cries, exposing the notes he took in the Great Hall.');V.dominance-=3;}if(V.dracula_relic==="blade"){p.push('I produce the Ottoman shard. It remembers the blood of thousands.');V.dominance+=4;}if(V.dracula_relic==="soil"){p.push('I drop the ancestral soil onto the floor. The room suddenly feels alien and suffocating to him.');V.fear+=2;}if(V.dracula_relic==="glass"){p.push('I hold up the stained glass. The shattered saint reflects the ruin of his Church.');V.dominance+=3;}if(!p.length)p.push('The standoff stretches, each of us measuring the other.');render(p);setTimeout(()=>{V.dominance>=12?good_ending():harker_death();},400);}
-function renfield_boss_fight(){render(['Renfield is perched atop a bookshelf, his eyes dilated until they are black pits. "The Master is a sun! But even suns go down, yes?"'],[{text:'Assert your Divinity.',action:()=>{V.dominance+=2;render(['"You are the dust beneath my boots, Renfield. Be grateful I allow you to breathe."']);setTimeout(renfield_relics,300);}},{text:'Psychologically shatter him.',action:()=>{V.dominance+=4;V.conviction-=2;render(['"I am the one who sends the flies. Without me, you are merely a starving man in a cage."']);setTimeout(renfield_relics,300);}}]);}
-function renfield_relics(){let p=[];if(V.helsing_relic==="spider"){p.push('He produces the cellar spider. "The Master gave me the life! Now I take more!" He swallows it.');V.sacred_ground+=4;V.restraint-=2;}if(V.helsing_relic==="wax"){p.push('He rubs the chapel wax on his eyes. "I see you now! Not the Lord, but the Corpse!"');V.dominance-=4;}if(V.dracula_relic==="blade"){p.push('I draw the Ottoman blade. Instead of cowering, he tries to lick the blood-stained edge.');V.sanity-=2;}if(V.dracula_relic==="soil"){p.push('He sees the graveyard soil and tries to eat it to be "closer" to me.');V.dominance+=3;}if(V.dracula_relic==="glass"){p.push('The dancing colors in the stained glass shard drive his fractured mind into a total trance.');V.dominance+=5;}if(!p.length)p.push('The madman twitches, caught between worship and revolt.');render(p);setTimeout(()=>{V.dominance>=12?good_ending():renfield_flees();},400);}
-function van_helsing_boss_fight(){render(['"I knew what you were the moment the carriage crossed the Borgo Pass," Van Helsing says, his voice like grinding gravel.','"The architecture of this room is precise, Count. But your power has a geometry. Break the lines, and the monster falls."'],[{text:'Hiss and retreat into the rafters.',action:()=>{V.dominance+=1;render(['I coil my body, leaping with inhuman grace to the high stone beams. "You bring toys to a god\'s house, Doctor?"']);setTimeout(vh_prayer,300);}},{text:'Lunge with blinding speed.',action:()=>{mod('thirst',2);mod('restraint',-1);render(['I am a blur of shadow. I move to catch his throat, but he splashes a vial of holy water in a wide arc.']);setTimeout(vh_prayer,300);}}]);}
-function vh_prayer(){render(['He produces a Rosary of Wild Rose. The scent of the flowers is sharp—the smell of a funeral. He begins to chant in a low, rhythmic Latin.'],[{text:'Hiss in a language older than Rome.',action:()=>{V.conviction-=2;V.dominance+=1;render(['I drown out his prayers with the primal tongue of the mountains. The stones themselves seem to groan.']);setTimeout(vh_relics,300);}},{text:'Mock his faith.',action:()=>{V.dominance+=2;V.conviction-=1;render(['"You pray to a god who was crucified. I am the one who survived the cross of history."']);setTimeout(vh_relics,300);}}]);}
-function vh_relics(){let p=[];if(V.helsing_relic==="sash"){p.push('"You forgot your own history, Count!" Van Helsing snaps a silver-threaded sash tight between his hands.');V.sacred_ground+=2;V.dominance-=1;}if(V.helsing_relic==="salt_vial"){p.push('He smashes the vial of ancient, blessed salt. It creates a barrier I cannot cross.');V.sacred_ground+=3;}if(V.helsing_relic==="iron_key"){p.push('He holds up the old iron key. "This house has many doors, Dracula. I have locked the one to your heart."');V.conviction+=3;}if(p.length)render(p);setTimeout(vh_riddle,400);}
-function vh_riddle(){render(['He reaches for a silver-backed mirror, held face-down. "I am the thing that grows shorter as I grow older. What am I?"'],[{text:'Answer: "A Candle."',action:()=>{V.dominance+=3;V.conviction-=3;render(['"I have watched a thousand candles gutter out, Doctor. You are simply the latest."']);setTimeout(vh_final,300);}},{text:'Answer: "Life."',action:()=>{V.dominance+=1;V.conviction-=1;render(['"A tragic answer. Correct, yet so very fleeting."']);setTimeout(vh_final,300);}}]);}
-function vh_final(){render(['Van Helsing is pale now. He pulls a glass vial containing a single drop of dark, ancient blood—my blood.','"I have the map of your soul here, Count. If I break this vial, the connection to your native earth will be severed."'],[{text:'Project a vision of his failure.',action:()=>{V.dominance+=5;V.conviction-=5;render(['I flood his mind with the image of London in flames.']);setTimeout(vh_dracula_relics,300);}},{text:'Lunge to snatch the vial.',action:()=>{V.restraint-=3;V.thirst+=2;if(V.thirst>9){early_ending_feast();return;}render(['I move with the speed of a strike of lightning.']);setTimeout(vh_dracula_relics,300);}}]);}
-function vh_dracula_relics(){let p=[];if(V.dracula_relic==="blade"){p.push('I produce the Ottoman shard. Its history crushes Van Helsing\'s resolve.');V.dominance+=3;V.conviction-=2;}if(V.dracula_relic==="soil"){p.push('I press the handful of earth to my chest. My strength is renewed.');V.sacred_ground-=2;V.dominance+=1;}if(V.dracula_relic==="glass"){p.push('I hold up the stained glass—showing him a world where his God is dead.');V.dominance+=4;V.conviction-=3;}if(p.length)render(p);setTimeout(()=>{V.dominance>=12?good_ending():early_ending_death_v2();},400);}
+function harker_boss_fight(){
+  playAmbient('boss_fight');
+  render(['Harker backs into the corner of the library, his briefcase held up like a shield. "I have read the fine print, Count! You cannot keep me here. The law of nations protects a British subject!"'],[{text:'Mock his "Law".',action:()=>{V.dominance+=2;render(['"I am the law in these mountains, Jonathan. Every stone you stand on was laid by my command."'],null,null,harker_relics);}},{text:'Threaten his future.',action:()=>{V.conviction-=3;render(['"London is a city of fog. A man could go missing in the docks and never be found by his \'law\'."'],null,null,harker_relics);}}]);
+}
+function harker_relics(){let p=[];if(V.helsing_relic==="locket"){p.push('He snaps open the gold case he found in the chapel. The image of Mina Murray glows in the candlelight. "I do not fight for the law, Monster. I fight for her!"');V.conviction+=6;V.sacred_ground+=1;}if(V.helsing_relic==="discrepancy"){p.push('"You signed the 1462 charter with the same hand that signed these deeds!" he cries, exposing the notes he took in the Great Hall.');V.dominance-=3;}if(V.dracula_relic==="blade"){p.push('I produce the Ottoman shard. It remembers the blood of thousands.');V.dominance+=4;}if(V.dracula_relic==="soil"){p.push('I drop the ancestral soil onto the floor. The room suddenly feels alien and suffocating to him.');V.fear+=2;}if(V.dracula_relic==="glass"){p.push('I hold up the stained glass. The shattered saint reflects the ruin of his Church.');V.dominance+=3;}if(p.length){render(p,null,null,()=>{V.dominance>=12?good_ending():harker_death();});}else{render(['The standoff stretches, each of us measuring the other.'],null,null,()=>{V.dominance>=12?good_ending():harker_death();});}}
+function renfield_boss_fight(){
+  playAmbient('boss_fight');
+  render(['Renfield is perched atop a bookshelf, his eyes dilated until they are black pits. "The Master is a sun! But even suns go down, yes?"'],[{text:'Assert your Divinity.',action:()=>{V.dominance+=2;render(['"You are the dust beneath my boots, Renfield. Be grateful I allow you to breathe."'],null,null,renfield_relics);}},{text:'Psychologically shatter him.',action:()=>{V.dominance+=4;V.conviction-=2;render(['"I am the one who sends the flies. Without me, you are merely a starving man in a cage."'],null,null,renfield_relics);}}]);
+}
+function renfield_relics(){let p=[];if(V.helsing_relic==="spider"){p.push('He produces the cellar spider. "The Master gave me the life! Now I take more!" He swallows it.');V.sacred_ground+=4;V.restraint-=2;}if(V.helsing_relic==="wax"){p.push('He rubs the chapel wax on his eyes. "I see you now! Not the Lord, but the Corpse!"');V.dominance-=4;}if(V.dracula_relic==="blade"){p.push('I draw the Ottoman blade. Instead of cowering, he tries to lick the blood-stained edge.');V.sanity-=2;}if(V.dracula_relic==="soil"){p.push('He sees the graveyard soil and tries to eat it to be "closer" to me.');V.dominance+=3;}if(V.dracula_relic==="glass"){p.push('The dancing colors in the stained glass shard drive his fractured mind into a total trance.');V.dominance+=5;}if(p.length){render(p,null,null,()=>{V.dominance>=12?good_ending():renfield_flees();});}else{render(['The madman twitches, caught between worship and revolt.'],null,null,()=>{V.dominance>=12?good_ending():renfield_flees();});}}
+function van_helsing_boss_fight(){
+  playAmbient('boss_fight');
+  render(['"I knew what you were the moment the carriage crossed the Borgo Pass," Van Helsing says, his voice like grinding gravel.','"The architecture of this room is precise, Count. But your power has a geometry. Break the lines, and the monster falls."'],[{text:'Hiss and retreat into the rafters.',action:()=>{V.dominance+=1;render(['I coil my body, leaping with inhuman grace to the high stone beams. "You bring toys to a god\'s house, Doctor?"'],null,null,vh_prayer);}},{text:'Lunge with blinding speed.',action:()=>{mod('thirst',2);mod('restraint',-1);render(['I am a blur of shadow. I move to catch his throat, but he splashes a vial of holy water in a wide arc.'],null,null,vh_prayer);}}]);
+}
+function vh_prayer(){render(['He produces a Rosary of Wild Rose. The scent of the flowers is sharp—the smell of a funeral. He begins to chant in a low, rhythmic Latin.'],[{text:'Hiss in a language older than Rome.',action:()=>{V.conviction-=2;V.dominance+=1;render(['I drown out his prayers with the primal tongue of the mountains. The stones themselves seem to groan.'],null,null,vh_relics);}},{text:'Mock his faith.',action:()=>{V.dominance+=2;V.conviction-=1;render(['"You pray to a god who was crucified. I am the one who survived the cross of history."'],null,null,vh_relics);}}]);}
+// Bug F fix: conditional render — only call render if paragraphs exist, else call next directly
+function vh_relics(){let p=[];if(V.helsing_relic==="sash"){p.push('"You forgot your own history, Count!" Van Helsing snaps a silver-threaded sash tight between his hands.');V.sacred_ground+=2;V.dominance-=1;}if(V.helsing_relic==="salt_vial"){p.push('He smashes the vial of ancient, blessed salt. It creates a barrier I cannot cross.');V.sacred_ground+=3;}if(V.helsing_relic==="iron_key"){p.push('He holds up the old iron key. "This house has many doors, Dracula. I have locked the one to your heart."');V.conviction+=3;}if(p.length)render(p,null,null,vh_riddle);else vh_riddle();}
+function vh_riddle(){render(['He reaches for a silver-backed mirror, held face-down. "I am the thing that grows shorter as I grow older. What am I?"'],[{text:'Answer: "A Candle."',action:()=>{V.dominance+=3;V.conviction-=3;render(['"I have watched a thousand candles gutter out, Doctor. You are simply the latest."'],null,null,vh_final);}},{text:'Answer: "Life."',action:()=>{V.dominance+=1;V.conviction-=1;render(['"A tragic answer. Correct, yet so very fleeting."'],null,null,vh_final);}}]);}
+function vh_final(){render(['Van Helsing is pale now. He pulls a glass vial containing a single drop of dark, ancient blood—my blood.','"I have the map of your soul here, Count. If I break this vial, the connection to your native earth will be severed."'],[{text:'Project a vision of his failure.',action:()=>{V.dominance+=5;V.conviction-=5;render(['I flood his mind with the image of London in flames.'],null,null,vh_dracula_relics);}},{text:'Lunge to snatch the vial.',action:()=>{V.restraint-=3;V.thirst+=2;if(V.thirst>9){early_ending_feast();return;}render(['I move with the speed of a strike of lightning.'],null,null,vh_dracula_relics);}}]);}
+// Bug F fix: conditional render for dracula relics too
+function vh_dracula_relics(){let p=[];if(V.dracula_relic==="blade"){p.push('I produce the Ottoman shard. Its history crushes Van Helsing\'s resolve.');V.dominance+=3;V.conviction-=2;}if(V.dracula_relic==="soil"){p.push('I press the handful of earth to my chest. My strength is renewed.');V.sacred_ground-=2;V.dominance+=1;}if(V.dracula_relic==="glass"){p.push('I hold up the stained glass—showing him a world where his God is dead.');V.dominance+=4;V.conviction-=3;}if(p.length){render(p,null,null,()=>{V.dominance>=12?good_ending():early_ending_death_v2();});}else{if(V.dominance>=12)good_ending();else early_ending_death_v2();}}
 // Endings
-function harker_death(){render(['Harker realizes that the man standing before him is not a man at all.','"I cannot finish this," he whispers, reaching for the door. "This contract... it is a death warrant for my city."'],[{text:'Lunge across the table.',action:()=>{render(['I am faster than his fear. I catch him before his hand touches the iron latch.']);setTimeout(harker_death_end,300);}},{text:'Speak a word of command.',action:()=>{render(['"Look at me, Jonathan. Sleep. Forget the ink."','But his terror is too bright. The spell fails.']);setTimeout(harker_death_end,300);}}]);}
+function harker_death(){
+  playAmbient('ending_dark');
+  render(['Harker realizes that the man standing before him is not a man at all.','"I cannot finish this," he whispers, reaching for the door. "This contract... it is a death warrant for my city."'],[{text:'Lunge across the table.',action:()=>{render(['I am faster than his fear. I catch him before his hand touches the iron latch.'],null,null,harker_death_end);}},{text:'Speak a word of command.',action:()=>{render(['"Look at me, Jonathan. Sleep. Forget the ink."','But his terror is too bright. The spell fails.'],null,null,harker_death_end);}}]);
+}
 function harker_death_end(){render(['He doesn\'t even have time to scream. The warmth fills me, a crimson tide that silences the ancient cold in my bones. A waste of a good solicitor, but a necessary indulgence.','EARLY ENDING: THE BROKEN CONTRACT'],null,'restart');}
-function renfield_flees(){render(['Renfield screams and bolts for the window, smashing through the glass. He will be found by the locals and dragged to an asylum.','EARLY ENDING: THE MADMAN\'S ESCAPE'],null,'restart');}
-function early_ending_feast(){render(['The thin thread of my civility snaps. A single swift bite to his neck. I have fed, and now I must rebuild the bridge I have just destroyed to the West.','EARLY ENDING: THE HUNGER WINS'],null,'restart');}
-function early_ending_flight(){render(['He bolts for the door. I hear his boots pounding on the stone as he flees. He will tell the village. They will come with torches.','EARLY ENDING: THE PREY ESCAPES'],null,'restart');}
-function early_ending_death(){render(['He strikes me down with a blow to my heart, a wooden stake of the finest grain. I shiver and I turn to ash.','EARLY ENDING: THE SCHOLAR\'S TRAP'],null,'restart');}
-function early_ending_death_v2(){render(['Van Helsing has completed the circle. I am trapped within a ring of salt, silver, and prayer.','"You are a scholar of the past, Count," he whispers, "but you forgot that the past is a grave. And graves must stay closed."','He strikes. My pride was my shroud. I dissolve into the very dust I sought to escape.','ENDING: THE SCHOLAR\'S CAGE'],null,'restart');}
-function final_outcome(){render(['The traveler dabs at his hand and returns to the maps. His injury mended, and my hunger has passed for now, but the night is far from over.',`We finish the signatures in a heavy silence. I watch ${g()} pack his leather bag. He is tired, his movements sluggish and heavy.`,'"The hour is very late," I say, rising from my chair. "I shall escort you to your chambers."'],[{text:'Lead him through the gallery.',action:()=>{mod('restraint',1);render(['I walk several paces ahead, my shadow stretching long and thin against the stone walls.']);setTimeout(guest_room,300);}},{text:'Walk closely behind him.',action:()=>{mod('thirst',1);render(['I can hear the rhythmic shuffle of his feet and the soft rasp of his breathing. The scent of his pulse follows me like a ghost.']);setTimeout(guest_room,300);}}]);}
-function guest_room(){let p=['We reach the heavy oak door of the guest room. I push it open. The room is cold, the bed linens smelling of lavender and old dust.'];if(g()==="Mr. Harker")p.push('He begins to unbutton his collar, exposing the soft, pale skin of his throat. "Thank you for your hospitality."');else if(g()==="Dr. Van Helsing")p.push('He does not undress. He places his bag on the chair and begins to arrange small vials on the nightstand.');else p.push('He collapses onto the bed, shivering. "Will the master be watching over me while I sleep?"');render(p,[{text:'Offer a polite bow and leave.',action:()=>{mod('restraint',2);render(['"I wish you a restful sleep. I shall be... occupied... during the daylight hours."']);setTimeout(game_resolution,300);}},{text:'Linger at the threshold.',action:()=>{mod('thirst',2);render(['I watch him for a moment too long. The vulnerability of a sleeping man is a powerful thing.'],[{text:'Close the door and walk away.',action:()=>{mod('restraint',1);render(['I pull the handle shut. I must put a wall of wood and stone between us.']);setTimeout(game_resolution,300);}},{text:'Step inside to "check the window."',action:()=>{mod('thirst',2);mod('suspicion',1);if(V.thirst>9){early_ending_feast();return;}if(V.suspicion>6&&g()!=="Dr. Van Helsing"){early_ending_flight();return;}render(['I glide past him to the casement. He flinches as I pass. I am close enough to feel the radiant heat of his body.']);setTimeout(game_resolution,300);}}]);}}]);}
+function renfield_flees(){
+  playAmbient('ending_dark');
+  render(['Renfield screams and bolts for the window, smashing through the glass. He will be found by the locals and dragged to an asylum.','EARLY ENDING: THE MADMAN\'S ESCAPE'],null,'restart');
+}
+function early_ending_feast(){
+  playAmbient('ending_dark');
+  render(['The thin thread of my civility snaps. A single swift bite to his neck. I have fed, and now I must rebuild the bridge I have just destroyed to the West.','EARLY ENDING: THE HUNGER WINS'],null,'restart');
+}
+function early_ending_flight(){
+  playAmbient('ending_dark');
+  render(['He bolts for the door. I hear his boots pounding on the stone as he flees. He will tell the village. They will come with torches.','EARLY ENDING: THE PREY ESCAPES'],null,'restart');
+}
+function early_ending_death(){
+  playAmbient('ending_dark');
+  render(['He strikes me down with a blow to my heart, a wooden stake of the finest grain. I shiver and I turn to ash.','EARLY ENDING: THE SCHOLAR\'S TRAP'],null,'restart');
+}
+function early_ending_death_v2(){
+  playAmbient('ending_dark');
+  render(['Van Helsing has completed the circle. I am trapped within a ring of salt, silver, and prayer.','"You are a scholar of the past, Count," he whispers, "but you forgot that the past is a grave. And graves must stay closed."','He strikes. My pride was my shroud. I dissolve into the very dust I sought to escape.','ENDING: THE SCHOLAR\'S CAGE'],null,'restart');
+}
+function final_outcome(){render(['The traveler dabs at his hand and returns to the maps. His injury mended, and my hunger has passed for now, but the night is far from over.',`We finish the signatures in a heavy silence. I watch ${g()} pack his leather bag. He is tired, his movements sluggish and heavy.`,'"The hour is very late," I say, rising from my chair. "I shall escort you to your chambers."'],[{text:'Lead him through the gallery.',action:()=>{mod('restraint',1);render(['I walk several paces ahead, my shadow stretching long and thin against the stone walls.'],null,null,guest_room);}},{text:'Walk closely behind him.',action:()=>{mod('thirst',1);render(['I can hear the rhythmic shuffle of his feet and the soft rasp of his breathing. The scent of his pulse follows me like a ghost.'],null,null,guest_room);}}]);}
+function guest_room(){let p=['We reach the heavy oak door of the guest room. I push it open. The room is cold, the bed linens smelling of lavender and old dust.'];if(g()==="Mr. Harker")p.push('He begins to unbutton his collar, exposing the soft, pale skin of his throat. "Thank you for your hospitality."');else if(g()==="Dr. Van Helsing")p.push('He does not undress. He places his bag on the chair and begins to arrange small vials on the nightstand.');else p.push('He collapses onto the bed, shivering. "Will the master be watching over me while I sleep?"');render(p,[{text:'Offer a polite bow and leave.',action:()=>{mod('restraint',2);render(['"I wish you a restful sleep. I shall be... occupied... during the daylight hours."'],null,null,game_resolution);}},{text:'Linger at the threshold.',action:()=>{mod('thirst',2);render(['I watch him for a moment too long. The vulnerability of a sleeping man is a powerful thing.'],[{text:'Close the door and walk away.',action:()=>{mod('restraint',1);render(['I pull the handle shut. I must put a wall of wood and stone between us.'],null,null,game_resolution);}},{text:'Step inside to "check the window."',action:()=>{mod('thirst',2);mod('suspicion',1);if(V.thirst>9){early_ending_feast();return;}if(V.suspicion>6&&g()!=="Dr. Van Helsing"){early_ending_flight();return;}render(['I glide past him to the casement. He flinches as I pass. I am close enough to feel the radiant heat of his body.'],null,null,game_resolution);}}]);}}]);}
 function game_resolution(){if(V.restraint>=10)good_ending();else if(V.restraint<10&&V.thirst<7)neutral_ending();else bad_ending();}
-function good_ending(){if(version===2){render(['I retreat to the deepest bowels of the cellar, far beneath the reach of the prying sun. My veins ache, but I do not turn back.','To kill him now would be the act of a common beast. I am not a beast; I am a Sovereign.',`The papers are signed, the seals are set, and the deeds to Carfax Abbey are clutched in my cold palm. By allowing ${g()} to leave with his life, I have bought invisibility.`,'London is a city of millions. A banquet that never ends. And I have just secured the keys to the larder.','ENDING: THE PATIENT ARCHITECT']);setTimeout(final_mirror_reveal,400);}else{render(['I retreat to the deepest part of the cellar where the light of the morning cannot reach. My body aches with a hunger that feels like fire, but my mind is clear.',`The papers are signed. The carriage will return for ${g()} at dawn. I have been a perfect host, a patient businessman, and soon, a secret passenger on a ship to the West.`,'I enter my heavy marble tomb. And I close my eyes as the first bird calls.','ENDING: THE PATIENT SHADOW']);setTimeout(end_reveal_v1,400);}}
-function neutral_ending(){render(['I do not kill him, but the hunger demands a toll.','While he sleeps, I return to his room. I am as silent as the mist. I take only what I need to survive the coming day.','In the morning, the carriage takes him away. He is pale but alive. The secret of my nature remains safe.','ENDING: THE GHOSTLY TAX']);setTimeout(version===2?final_mirror_reveal:end_reveal_v1,400);}
-function bad_ending(){render(['I find myself back at his door before moonset. He wakes too late.','He sees the real me, the beast underneath the pale skin. He is paralyzed, frozen in fear. Too late.','By dawn, there is only a suit of clothes and a briefcase left in the room.','ENDING: THE CRIMSON FOLLY']);setTimeout(version===2?final_mirror_reveal:end_reveal_v1,400);}
-function final_mirror_reveal(){let p=['The struggle is over. I am the only master remaining in this hall.','I walk to the great pier glass. I adjust my sleeves, making sure the lace is perfect.'];if(g()==="Mr. Harker")p.push('I see the ink-stained ledger he left behind. The names of London streets—Piccadilly, Purfleet. My future.');else if(g()==="Dr. Van Helsing")p.push('I see the broken relics on the floor. The toys of desperate men.');else p.push('I see the empty cage of his mind, scattered like the flies he loved.');p.push('The mirror shows the room—cold, grand, and empty. I am the silence between the heartbeats. I am the shadow that the world forgot to cast.');p.push('"They try so hard to find a reflection," I muse. "I am the only one who needs no proof of his presence."');render(p);setTimeout(the_voyage_log,400);}
-function the_voyage_log(){render(['---','The mountains are a memory of stone. Now, there is only the rhythmic heave of the black sea. I rest beneath the floorboards of the \'Demeter\', nestled in the soil of my ancestors.'],[{text:'Log: Day 4 — The North Sea',action:()=>{render(['The captain notes the disappearance of the first mate. He blames the storm. I blame the salt in his blood.']);setTimeout(demeter_arrives,300);}},{text:'Log: Day 10 — Near Whitby',action:()=>{render(['The crew is silent now. The dog howls at the crate in the hold. They sense a passenger who does not eat their bread.']);setTimeout(demeter_arrives,300);}}]);}
-function demeter_arrives(){render(['The ship grinds against the sands of the English coast. A ghost ship, steered by a dead man\'s hand. I leap to the shore in the shape of a great hound, disappearing into the fog of the new world.','---']);setTimeout(newspaper_headlines,400);}
-function newspaper_headlines(){let p=[];if(V.restraint>=10)p.push('HEADLINE:<strong>"MYSTERIOUS NOBLEMAN ACQUIRES PURFLEET ESTATE"</strong><em>A silent arrival for the Count of Transylvania. London welcomes a new man of wealth.</em><span class="status">The Perfect Ghost. You have infiltrated the empire without a single ripple.</span>');else if(V.restraint<10&&V.thirst<7)p.push('HEADLINE:<strong>"GHASTLY DISCOVERY ON THE WHITBY COAST"</strong><em>The Demeter runs aground with no living soul aboard. A clerk speaks of shadows and blood.</em><span class="status">The Whispered Legend. You are in London, but the hunters have a scent.</span>');else p.push('HEADLINE:<strong>"CARNAGE AT CASTLE DRACULA: A TRAIL OF BONE"</strong><em>Search parties find remains. The \'Count\' has vanished. Police fear a foreign madman is at large.</em><span class="status">The Hunted Beast. The world is watching for a monster.</span>');if(g()==="Dr. Van Helsing"&&V.dominance>=12)p.push('HEADLINE:<strong>"FAMED SCHOLAR COMMITTED TO ASYLUM"</strong><em>Dr. Van Helsing found raving about \'vampires\' in a Dover tavern.</em>');render(p);setTimeout(london_arrival,500);}
-function london_arrival(){render(['I stand upon the cliffs of Whitby, the salt spray mingling with the scent of the teeming, oblivious millions just a train-ride away.','But a King must choose his first subject carefully. My narcissism demands a masterpiece.'],[{text:'The Pure Heart — Mina Harker',action:()=>{render(['"She is the intellectual equal of the men who tried to stop me. To turn her is to claim the best of them."']);setTimeout(finalScore,300);}},{text:'The Socialite — Lucy Westenra',action:()=>{render(['"She is the jewel of the high circles. Her death will be a fashionable terror."']);setTimeout(finalScore,300);}},{text:'The Broken — The Seward Asylum',action:()=>{render(['"I shall start where the walls are thick and the screams are ignored."']);setTimeout(finalScore,300);}}]);}
+function good_ending(){
+  playAmbient(V.restraint>=10?'ending_good':'ending_good');
+  if(version===2){render(['I retreat to the deepest bowels of the cellar, far beneath the reach of the prying sun. My veins ache, but I do not turn back.','To kill him now would be the act of a common beast. I am not a beast; I am a Sovereign.',`The papers are signed, the seals are set, and the deeds to Carfax Abbey are clutched in my cold palm. By allowing ${g()} to leave with his life, I have bought invisibility.`,'London is a city of millions. A banquet that never ends. And I have just secured the keys to the larder.','ENDING: THE PATIENT ARCHITECT'],null,null,final_mirror_reveal);}else{render(['I retreat to the deepest part of the cellar where the light of the morning cannot reach. My body aches with a hunger that feels like fire, but my mind is clear.',`The papers are signed. The carriage will return for ${g()} at dawn. I have been a perfect host, a patient businessman, and soon, a secret passenger on a ship to the West.`,'I enter my heavy marble tomb. And I close my eyes as the first bird calls.','ENDING: THE PATIENT SHADOW'],null,null,end_reveal_v1);}}
+function neutral_ending(){
+  playAmbient('ending_neutral');
+  render(['I do not kill him, but the hunger demands a toll.','While he sleeps, I return to his room. I am as silent as the mist. I take only what I need to survive the coming day.','In the morning, the carriage takes him away. He is pale but alive. The secret of my nature remains safe.','ENDING: THE GHOSTLY TAX'],null,null,version===2?final_mirror_reveal:end_reveal_v1);
+}
+function bad_ending(){
+  playAmbient('ending_dark');
+  render(['I find myself back at his door before moonset. He wakes too late.','He sees the real me, the beast underneath the pale skin. He is paralyzed, frozen in fear. Too late.','By dawn, there is only a suit of clothes and a briefcase left in the room.','ENDING: THE CRIMSON FOLLY'],null,null,version===2?final_mirror_reveal:end_reveal_v1);
+}
+function final_mirror_reveal(){let p=['The struggle is over. I am the only master remaining in this hall.','I walk to the great pier glass. I adjust my sleeves, making sure the lace is perfect.'];if(g()==="Mr. Harker")p.push('I see the ink-stained ledger he left behind. The names of London streets—Piccadilly, Purfleet. My future.');else if(g()==="Dr. Van Helsing")p.push('I see the broken relics on the floor. The toys of desperate men.');else p.push('I see the empty cage of his mind, scattered like the flies he loved.');p.push('The mirror shows the room—cold, grand, and empty. I am the silence between the heartbeats. I am the shadow that the world forgot to cast.');p.push('"They try so hard to find a reflection," I muse. "I am the only one who needs no proof of his presence."');render(p,null,null,the_voyage_log);}
+function the_voyage_log(){
+  playAmbient('voyage');
+  render(['---','The mountains are a memory of stone. Now, there is only the rhythmic heave of the black sea. I rest beneath the floorboards of the \'Demeter\', nestled in the soil of my ancestors.'],[{text:'Log: Day 4 — The North Sea',action:()=>{render(['The captain notes the disappearance of the first mate. He blames the storm. I blame the salt in his blood.'],null,null,demeter_arrives);}},{text:'Log: Day 10 — Near Whitby',action:()=>{render(['The crew is silent now. The dog howls at the crate in the hold. They sense a passenger who does not eat their bread.'],null,null,demeter_arrives);}}]);
+}
+function demeter_arrives(){render(['The ship grinds against the sands of the English coast. A ghost ship, steered by a dead man\'s hand. I leap to the shore in the shape of a great hound, disappearing into the fog of the new world.','---'],null,null,newspaper_headlines);}
+function newspaper_headlines(){
+  playAmbient(V.restraint>=10?'ending_good':'ending_dark');
+  let p=[];if(V.restraint>=10)p.push('HEADLINE:<strong>"MYSTERIOUS NOBLEMAN ACQUIRES PURFLEET ESTATE"</strong><em>A silent arrival for the Count of Transylvania. London welcomes a new man of wealth.</em><span class="status">The Perfect Ghost. You have infiltrated the empire without a single ripple.</span>');else if(V.restraint<10&&V.thirst<7)p.push('HEADLINE:<strong>"GHASTLY DISCOVERY ON THE WHITBY COAST"</strong><em>The Demeter runs aground with no living soul aboard. A clerk speaks of shadows and blood.</em><span class="status">The Whispered Legend. You are in London, but the hunters have a scent.</span>');else p.push('HEADLINE:<strong>"CARNAGE AT CASTLE DRACULA: A TRAIL OF BONE"</strong><em>Search parties find remains. The \'Count\' has vanished. Police fear a foreign madman is at large.</em><span class="status">The Hunted Beast. The world is watching for a monster.</span>');if(g()==="Dr. Van Helsing"&&V.dominance>=12)p.push('HEADLINE:<strong>"FAMED SCHOLAR COMMITTED TO ASYLUM"</strong><em>Dr. Van Helsing found raving about \'vampires\' in a Dover tavern.</em>');render(p,null,null,london_arrival);
+}
+function london_arrival(){render(['I stand upon the cliffs of Whitby, the salt spray mingling with the scent of the teeming, oblivious millions just a train-ride away.','But a King must choose his first subject carefully. My narcissism demands a masterpiece.'],[{text:'The Pure Heart — Mina Harker',action:()=>{render(['"She is the intellectual equal of the men who tried to stop me. To turn her is to claim the best of them."'],null,null,finalScore);}},{text:'The Socialite — Lucy Westenra',action:()=>{render(['"She is the jewel of the high circles. Her death will be a fashionable terror."'],null,null,finalScore);}},{text:'The Broken — The Seward Asylum',action:()=>{render(['"I shall start where the walls are thick and the screams are ignored."'],null,null,finalScore);}}]);}
 function finalScore(){render(['"Let the harvest begin."','---','SCORE:<span>THE END.</span>'],null,'restart');}
 
 function startGame(v){
   version=v;resetState();storyEl=document.getElementById('storyContainer');storyEl.innerHTML='';
-  revealQueue=[];revealChoicesEl=null;isRevealing=false;initAudio();
+  revealQueue=[];revealChoicesEl=null;isRevealing=false;
+  pendingContinuation=null;awaitingContinuation=false;
+  stopAmbient();currentAmbient=null;
+  initAudio();
   document.getElementById('titleScreen').classList.add('hidden');
   setTimeout(()=>{document.getElementById('gameWrap').classList.add('visible');document.getElementById('soundToggle').classList.add('visible');intro();},800);
 }
